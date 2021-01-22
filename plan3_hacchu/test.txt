@@ -1,2 +1,2 @@
 test Watanabe
-test Fujimori2
+test Fujimori
