@@ -6,7 +6,7 @@ background-color: rgb(198, 202, 200);
 }
 
 #gnav ul li{
-
+/*ヘッダーのセクション*/
 display: inline-flex;
 justify-content: center;
 background-color: rgb(231, 231, 231);
