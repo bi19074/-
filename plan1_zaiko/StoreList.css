@@ -7,14 +7,22 @@ background-color: rgb(198, 202, 200);
 
 #gnav ul li{
 
-display: inline;
+display: inline-flex;
+justify-content: center;
+background-color: rgb(231, 231, 231);
+width: 100px;
+}
+
+.inner {
+
+text-align: center;
 
 }
 
 body{
     /*サイトの左右の端に余白を設定*/
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 /*「.」でクラスを指定　*/
@@ -29,5 +37,5 @@ header .headline{
 
 .stores{
     /*text-align: center;*/
-    margin-left: 150px;
+    margin-left: 130px;
 }
