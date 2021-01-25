@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>発注画面</title>
+    <style>
+      table {
+  border-collapse: collapse;
+  width: 60%; /* 幅 */
+}
+th, td {
+  padding: 5px 15px;
+  border: solid 1px #FFFFFF;
+}
+th {
+  background-color: #DDDDDD;
+}
+
+  </style>
+  </head>
+  <body>
+    <h1>発注画面</h1>
+    <hr>
+  
+   <h2>書籍検索</h2>
+   <div>
+             <table border="0">
+                  <form action="list.html" method="get">
+                      <tr>
+                          <th>
+                              フリーワード
+                          </th>
+                          <td>
+                              <input type="text" name="user_id" value="" size="24">
+                          </td>
+                      </tr>
+                      <tr>
+                          <th>
+                              ジャンル
+                          </th>
+                          <td>
+                              <select name="genre">
+                                <option value="">　　</option>
+                                <option value="">芸術</option>
+                                <option value="">小説</option>
+                                <option value="">ビジネス</option>
+                              </select>  
+                          </td>
+                      </tr>
+                      
+                  </form>
+              </table>
+          </div>
+         <br>
+       <input type="button" value="検索" onclick="location.href='./result.html'">   
+
+ </body>
+</html>

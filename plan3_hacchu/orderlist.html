@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>発注リスト画面</title>
+    <style>
+      table {
+  border-collapse: collapse;
+  width: 60%; /* 幅 */
+}
+th, td {
+  padding: 5px 15px;
+  border: solid 1px #FFFFFF;
+}
+th {
+  background-color: #d0ebfd;
+}
+
+  </style>
+  </head>
+  <body>
+  	<h1>発注リスト</h1>
+    <hr>
+    <br>
+  <table>
+  <tr>
+    <th>書籍名</th> <th>ジャンル</th>  <th>注文数</th><th></th>
+  </tr>
+  <tr>
+    <td>A図鑑</td> <td>生物</td> <td>50</td> <td>10</td> <td>10</td> <td><input type="button" value="取り消す"></td>
+  </tr>
+  <tr>
+   <td>B図鑑</td> <td>医学</td> <td>50</td> <td>10</td> <td>8</td> <td><input type="button" value="取り消す"></td>
+  </tr>
+  
+  </table>
+  
+  <p>
+    <input type="button" value="発注を続ける" onclick="location.href='./発注画面.html'">
+    <input type="button" value="発注を確定する" onclick="location.href='./発注完了画面.html'">
+  </p>
+
+
+ </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>検索結果画面</title>
+    <style>
+      table {
+  border-collapse: collapse;
+  width: 60%; /* 幅 */
+}
+th, td {
+  padding: 5px 15px;
+  border: solid 1px #FFFFFF;
+}
+th {
+  background-color: #DDDDDD;
+}
+
+  </style>
+  </head>
+  <body>
+  	<h1>検索結果</h1>
+    <hr>
+  <table>
+  <tr>
+    <th></th><th>書籍名</th> <th>ジャンル</th> <th>注文数</th>
+  </tr>
+  <tr>
+    <td><input type="checkbox"></td><td>ABC</td> <td>コミック</td>  <td><input type="text" name="user_id" value="" size="2">
+  </tr>
+  <tr>
+    <td><input type="checkbox"></td><td>CDE</td> <td>ビジネス</td>  <td><input type="text" name="user_id" value="" size="2"></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox"></td><td>FGH</td> <td>科学</td>  <td><input type="text" name="user_id" value="" size="2"></td>
+  </tr>
+</table>
+<br>
+<input type="button" value="選択した商品を発注リストへ" onclick="location.href='./発注リスト画面.html'"> 
+
+ </body>
+</html>
