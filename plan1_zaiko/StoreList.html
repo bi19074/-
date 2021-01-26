@@ -24,22 +24,29 @@
 
         </header>
 
-        <ul class="stores" >
-            <li><a href="">店舗A</a></li>
-            <li><a href="">店舗B</a></li>
-            <li><a href="">店舗C</a></li>
-            <li><a href="">店舗D</a></li>
-            <li><a href="">店舗E</a></li>
-            <li><a href="">店舗F</a></li>
-            <li><a href="">店舗G</a></li>
-        </ul>
+        <form class="StoreList" action="Store.php" method="GET">
+
+            <ul class="stores" >
+
+                <li><button type="submit">店舗A</button>
+                    <input type="hidden" value="A">
+                </li>
+                <li><a href="">店舗B</a><input type="hidden" value="B"></li>
+                <li><a href="">店舗C</a><input type="hidden" value="C"></li>
+                <li><a href="">店舗D</a><input type="hidden" value="D"></li>
+                <li><a href="">店舗E</a><input type="hidden" value="E"></li>
+                <li><a href="">店舗F</a><input type="hidden" value="F"></li>
+                <li><a href="">店舗G</a><input type="hidden" value="G"></li>
+        
+            </ul>
+        
+        </form>
 
         <footer>
             <div id="footerCon">
             <p>&copy; Daisuke Yomo,Kazuki Watanabe. 2021.</p>
             </div>
         </footer>
-
 
     </body>
 
