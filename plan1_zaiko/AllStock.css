@@ -1,4 +1,3 @@
-/*「#」でIDを指定*/
 #gnav{
 
     background-color: rgb(198, 202, 200);
@@ -33,9 +32,4 @@
     
     #footerCon{
         text-align: center;
-    }
-    
-    .stores{
-        /*text-align: center;*/
-        margin-left: 130px;
     }
