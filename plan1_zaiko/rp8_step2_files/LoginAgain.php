@@ -49,7 +49,7 @@
 
         <div class="form">
         
-        <p id="warning">社員IDまたはパスワードが不正です。再度入力をお願いします。</p>
+        <p class="warning">社員IDまたはパスワードが不正です。再度入力をお願いします。</p>
 
 
         <form class="login" method="GET" action="auth.php">
