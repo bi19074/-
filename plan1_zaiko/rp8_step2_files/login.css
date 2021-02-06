@@ -1,0 +1,13 @@
+.form{
+    text-align: center;
+    line-height: 30px;
+}
+
+.title{
+    text-align: center;
+}
+
+#warining {
+    text-align: center;
+    color: red;
+}
