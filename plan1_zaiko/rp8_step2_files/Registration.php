@@ -48,7 +48,7 @@
 </div><div>
   <input type="submit" value="登録" />
 </div>
-<?php  // ！！！！つづきはここから
+<?php
 session_start();
 $token = sha1(uniqid(mt_rand(), true));
 $_SESSION['token'] = $token;
