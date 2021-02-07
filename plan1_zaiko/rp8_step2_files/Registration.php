@@ -26,7 +26,7 @@
 <title>データの登録</title>
 </head>
 <body>
-<form class="form" method="POST" action="RegistrationProsess.php">
+<form class="form" method="POST" action="RegistrationProcess.php">
 <div>
   <label for="id">ID：</label><br />
   <input id="id" type="text" name="id" size="20" maxlength="50" />
