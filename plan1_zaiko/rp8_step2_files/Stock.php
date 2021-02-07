@@ -28,7 +28,7 @@
     <body>
 
         <header>
-            <nav id="gnav">
+            <nav class="gnav">
 
                 <h1 class="headline">在庫詳細画面</h1>
 
@@ -36,7 +36,7 @@
                     <li><a href="StoreList.php">ホーム</a></li>
                     <li><a href="Stock.php">在庫一覧</a></li>
                     <li><a href="">問い合わせ</a></li>
-                    <li><a href="login.html">ログアウト</a></li>
+                    <li><a href="login.php">ログアウト</a></li>
                 </ul>
 
             </nav>
